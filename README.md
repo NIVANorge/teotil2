@@ -20,17 +20,17 @@ All the examples make use of Norway's ["regine" catchment network](https://kartk
 
 ## Documentation and tutorials
 
- * [TEOTIL2 basic concepts](https://nbviewer.jupyter.org/github/NIVANorge/teotil2/blob/main/notebooks/01_teotil2_basics.ipynb)
+ * [Tutorial 01: TEOTIL2 basic concepts](https://nbviewer.jupyter.org/github/NIVANorge/teotil2/blob/main/notebooks/01_teotil2_basics.ipynb)
 
- * [An introduction to TEOTIL2 (nutrients)](https://nbviewer.jupyter.org/github/NIVANorge/teotil2/blob/main/notebooks/02_teotil2_nutrients.ipynb)
+ * [Tutorial 02: An introduction to TEOTIL2 (nutrients)](https://nbviewer.jupyter.org/github/NIVANorge/teotil2/blob/main/notebooks/02_teotil2_nutrients.ipynb)
  
- * [Running TEOTIL2 (nutrients) for multiple years](https://nbviewer.jupyter.org/github/NIVANorge/teotil2/blob/main/notebooks/03_run_nutrients_all_years.ipynb)
+ * [Tutorial 03: Running TEOTIL2 (nutrients) for multiple years](https://nbviewer.jupyter.org/github/NIVANorge/teotil2/blob/main/notebooks/03_run_nutrients_all_years.ipynb)
  
- * [An introduction to TEOTIL2 (metals)](https://nbviewer.jupyter.org/github/NIVANorge/teotil2/blob/main/notebooks/04_teotil2_metals.ipynb)
+ * [Tutorial 04: An introduction to TEOTIL2 (metals)](https://nbviewer.jupyter.org/github/NIVANorge/teotil2/blob/main/notebooks/04_teotil2_metals.ipynb)
  
- * [Running TEOTIL2 (metals) for multiple years](https://nbviewer.jupyter.org/github/NIVANorge/teotil2/blob/main/notebooks/05_run_metals_all_years.ipynb)
+ * [Tutorial 05: Running TEOTIL2 (metals) for multiple years](https://nbviewer.jupyter.org/github/NIVANorge/teotil2/blob/main/notebooks/05_run_metals_all_years.ipynb)
  
- * [Explore time series from TEOTIL2 (metals)](https://nbviewer.jupyter.org/github/NIVANorge/teotil2/blob/main/notebooks/06_explore_teotil2_metals_output.ipynb)
+ * [Tutorial 06: Explore time series from TEOTIL2 (metals)](https://nbviewer.jupyter.org/github/NIVANorge/teotil2/blob/main/notebooks/06_explore_teotil2_metals_output.ipynb)
 
 ## Reports and technical information
 
@@ -40,8 +40,8 @@ All the examples make use of Norway's ["regine" catchment network](https://kartk
 
 ## Development notebooks
 
- * [Interpolation of datasets and preliminary statistical analysis](https://nbviewer.jupyter.org/github/NIVANorge/teotil2/blob/main/notebooks/dev02_teotil2_metals_interp_and_regress.ipynb)
+ * [Metals development 01: Interpolation of datasets and preliminary statistical analysis](https://nbviewer.jupyter.org/github/NIVANorge/teotil2/blob/main/notebooks/dev02_teotil2_metals_interp_and_regress.ipynb)
  
- * [Incorporating the 2019 "1000 Lakes" dataset](https://nbviewer.jupyter.org/github/NIVANorge/teotil2/blob/main/notebooks/dev03_teotil2_metals_1k_lakes_2019.ipynb)
+ * [Metals development 02: Incorporating the 2019 "1000 Lakes" dataset](https://nbviewer.jupyter.org/github/NIVANorge/teotil2/blob/main/notebooks/dev03_teotil2_metals_1k_lakes_2019.ipynb)
  
- * [Exploring changes over time](https://nbviewer.jupyter.org/github/NIVANorge/teotil2/blob/main/notebooks/dev04_teotil2_metals_over_time.ipynb)
+ * [Metals development 03: Exploring changes over time](https://nbviewer.jupyter.org/github/NIVANorge/teotil2/blob/main/notebooks/dev04_teotil2_metals_over_time.ipynb)
