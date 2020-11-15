@@ -41,7 +41,7 @@ The links below provide additonal background information, theory and technical d
 
  * [Report for the original TEOTIL model (version 1) by Tjomsland *et al*. (2010)](https://niva.brage.unit.no/niva-xmlui/handle/11250/214825)
  
- * [TEOTIL2 (metals) development report (2020)](./pages/00_intro_and_toc.html)
+ * [TEOTIL2 (metals) development report (2020)](https://nivanorge.github.io/teotil2/pages/00_intro_and_toc.html)
 
 ## Development notebooks
 
