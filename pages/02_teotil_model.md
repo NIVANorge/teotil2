@@ -34,3 +34,5 @@ These calculations are illustrated schematically in ***Fig. 1***. Adding additio
 \
 \
 <<[Previous](01_metal_behaviour.html) -------- [Contents](00_intro_and_toc.html) -------- [Next]()>>
+
+{% include lib/mathjax.html %}
