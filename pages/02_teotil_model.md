@@ -1,14 +1,14 @@
-## 2. The TEOTIL model
+# 2. The TEOTIL model
 
-### 2.1. Development history
+## 2.1. Development history
 
 The original TEOTIL model was created in 1992 ([Ibrekk and Tjomsland, 1992](https://niva.brage.unit.no/niva-xmlui/handle/11250/206972)). In 2001, it was recoded into Visual Basic and, in 2017, the code was refactored again into Python — a language that is increasingly popular for scientific applications. The Python implementation of the model currently lacks a graphical user interface, but it is more flexible and efficient than the previous version, making it feasible to extend the model to other parameters while also reducing runtimes.
 
-### 2.2. Nitrogen and phosphorus
+## 2.2. Nitrogen and phosphorus
 
 The purpose of the existing TEOTIL model is to integrate nutrient inputs from a variety of sources and to accumulate them downstream. Key datasets for simulating nitrogen and phosphorus include: diffuse background inputs from forests & uplands; diffuse human inputs based on population density & agricultural activities; and point discharges from industry, sewage treatment & aquaculture. The model uses the “export coefficient” concept to estimate diffuse fluxes, and it also incorporates a simple representation of catchment-level nutrient cycling and retention. For national scale applications, the model typically uses the “regine” catchment network, which comprises roughly 20 000 sub-catchments across Norway, ranging in size between 0.01 and 10 000 km2.
 
-### 2.3. Model structure and constraints
+## 2.3. Model structure and constraints
 
 Extending TEOTIL to incorporate additional parameters requires understanding the model’s structural framework, which places constraints upon further development. To simulate fluxes for any given parameter, $$X$$, the model must perform the following calculations: 
 
@@ -39,6 +39,6 @@ These calculations are illustrated schematically in ***Fig. 1***. Adding additio
 \
 \
 \
-<<[Previous](01_metal_behaviour.html) -------- [Contents](00_intro_and_toc.html) -------- [Next]()>>
+<<[Previous](01_metal_behaviour.html) -------- [Contents](00_intro_and_toc.html) -------- [Next](03_teotil_metals.html)>>
 
 {% include lib/mathjax.html %}

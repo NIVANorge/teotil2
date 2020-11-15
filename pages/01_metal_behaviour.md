@@ -1,4 +1,4 @@
-## 1. Review of metal behaviours
+# 1. Review of metal behaviours
 
 According to [Skjelkvåle *et al*. (2006)](https://niva.brage.unit.no/niva-xmlui/handle/11250/213255), the main (non-point) sources of metals influencing surface water concentrations in Norway are:
 
