@@ -30,7 +30,15 @@ $$
 
 These calculations are illustrated schematically in ***Fig. 1***. Adding additional chemical species to TEOTIL therefore requires estimating two parameters per species for each sub-catchment: (i) the **total local inputs**, $$L_i^X$$ and (ii) the **retention** factors, $$\alpha_i^X$$.
 
+<p align="center">
+  <img src="../images/model_schematic.png" alt="Model schematic" width="600" />
+</p>
+
+***Fig. 1:*** Schematic illustration of the flux accumulation procedure in TEOTIL2. $$L_i^X$$, sum of local inputs of parameter X to sub-catchment $$i$$; $$\alpha_i^X$$, retention factor for parameter $$X$$ in sub-catchment $$i$$; $$T_i^X$$, load of $$X$$ transmitted downstream from sub-catchment $$i$$
+
 \
 \
 \
 <<[Previous](01_metal_behaviour.html) -------- [Contents](00_intro_and_toc.html) -------- [Next]()>>
+
+{% include lib/mathjax.html %}
