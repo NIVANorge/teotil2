@@ -18,6 +18,12 @@ As part of a commitment to protect the marine environment of the Northeastern At
     3.2. [Estimating retention](05_retention.html)
     
     3.3. [Statistical relationships](06_statistical_relationships.html)
+    
+    3.4. [Direct estimates of metal concentrations](07_1000_lakes.html)
+    
+ 4. [Conclusion](08_conclusion.html)
+ 
+ 5. [References](09_references.html)
 
 \
 \
