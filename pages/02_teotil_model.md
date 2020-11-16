@@ -22,7 +22,7 @@ $$
 T_i^X=(1 - \alpha_i^X ) L_i^X \quad \quad \quad (1)
 $$
 
-For the next catchment downstream, $$j$$, the total input of $$X$$ is equal to the sum of local sources, $$L_j^X$$, plus any inputs from catchments upstream (numbered 1 to $$n$$ in equation [2], below). The output from catchment j is therefore
+For the next catchment downstream, $$j$$, the total input of $$X$$ is equal to the sum of local sources, $$L_j^X$$, plus any inputs from catchments upstream (numbered 1 to $$n$$ in equation [2], below). The output from catchment $$j$$ is therefore
 
 $$
 T_j^X=(1 - \alpha_j^X )\left(L_j^X + \sum_{p=1}^nT_p^X\right) \quad \quad \quad (2)
@@ -34,11 +34,11 @@ These calculations are illustrated schematically in ***Fig. 1***. Adding additio
   <img src="../images/model_schematic.png" alt="Model schematic" width="600" />
 </p>
 
-***Fig. 1:*** Schematic illustration of the flux accumulation procedure in TEOTIL2. $$L_i^X$$, sum of local inputs of parameter X to sub-catchment $$i$$; $$\alpha_i^X$$, retention factor for parameter $$X$$ in sub-catchment $$i$$; $$T_i^X$$, load of $$X$$ transmitted downstream from sub-catchment $$i$$
+***Fig. 1:*** Schematic illustration of the flux accumulation procedure in TEOTIL2. $$L_i^X$$, sum of local inputs of parameter $$X$$ to sub-catchment $$i$$; $$\alpha_i^X$$, retention factor for parameter $$X$$ in sub-catchment $$i$$; $$T_i^X$$, load of $$X$$ transmitted downstream from sub-catchment $$i$$
 
 \
 \
 \
-<<[Previous](01_metal_behaviour.html) -------- [Contents](00_intro_and_toc.html) -------- [Next](03_teotil_metals.html)>>
+<<[Previous](01_metal_behaviour.html) --------- [Contents](00_intro_and_toc.html) --------- [Next](03_teotil_metals.html)>>
 
 {% include lib/mathjax.html %}
