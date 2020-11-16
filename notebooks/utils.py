@@ -62,10 +62,10 @@ def best_subsets_ols_regression(df, resp_var, exp_vars, standardise=False):
     # Plot best AIC model and residuals
     fig, axes = plt.subplots(nrows=1, ncols=2, figsize=(12, 5))
 
-    axes[0].plot(df[resp_var], res.fittedvalues, "ro")
+    axes[0].plot(res.fittedvalues, df[resp_var], "ro")
     axes[0].plot(df[resp_var], df[resp_var], "k-")
-    axes[0].set_xlabel("Observed", fontsize=16)
-    axes[0].set_ylabel("Modelled", fontsize=16)
+    axes[0].set_xlabel("Modelled", fontsize=16)
+    axes[0].set_ylabel("Observed", fontsize=16)
 
     sn.histplot(res.resid, ax=axes[1], kde=True)
     axes[1].set_xlabel("Residual", fontsize=16)

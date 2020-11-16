@@ -16,6 +16,8 @@ As part of a commitment to protect the marine environment of the Northeastern At
     3.1. [Estimating local inputs](04_local_inputs.html)
     
     3.2. [Estimating retention](05_retention.html)
+    
+    3.3. [Statistical relationships](06_statistical_relationships.html)
 
 \
 \

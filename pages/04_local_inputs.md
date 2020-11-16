@@ -63,7 +63,7 @@ Raw point datasets from the 2019 1000 Lakes survey were [interpolated using the 
   <img src="../images/water_chem_1k_Lakes_2019_interp.png" alt="Interpolated water chemistry from the 2019 1000 Lakes survey" width="800" />
 </p>
 
-***Fig. 4:*** Water chemistry from the 2019 1000 Lakes survey, spatially interpolated using Inverse Distance Weighting. All units are mg/l except mercury, which is ng/l.
+***Fig. 4:*** Water chemistry from the 2019 1000 Lakes survey, spatially interpolated using Inverse Distance Weighting. All units are μg/l except mercury, which is ng/l.
 
 ### 3.1.4. Hydrology
 
