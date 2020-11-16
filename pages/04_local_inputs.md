@@ -67,9 +67,11 @@ Raw point datasets from the 2019 1000 Lakes survey were [interpolated using the 
 
 ### 3.1.4. Hydrology
 
-As part of Elveovervåkingsprogrammet, national scale hydrology data are supplied annually by the Norwegian Water Resources and Energy Directorate (NVE) and incorporated into the existing TEOTIL model for N and P. For TEOTIL Metals, hydrology plays an important role in determining weathering and mobilisation, and making it possible to translate metal concentrations in the geochemical, moss or water chemistry datasets into riverine fluxes. Hydrological parameters such as specific runoff and catchment residence time are also required to derive estimates of retention ([Section 4.2](05_retention.html)).
+As part of Elveovervåkingsprogrammet, national scale hydrology data are supplied annually by the Norwegian Water Resources and Energy Directorate (NVE) and incorporated into the existing TEOTIL model for N and P. For TEOTIL Metals, hydrology plays an important role in determining weathering and mobilisation, and making it possible to translate metal concentrations in the geochemical, moss or water chemistry datasets into riverine fluxes. Hydrological parameters such as specific runoff and catchment residence time are also required to derive estimates of retention ([Section 3.2](05_retention.html)).
 
 \
 \
 \
 <<[Previous](03_teotil_metals.html) --------- [Contents](00_intro_and_toc.html) --------- [Next](05_retention.html)>>
+
+          [Home](https://nivanorge.github.io/teotil2/)

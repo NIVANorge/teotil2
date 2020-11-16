@@ -22,7 +22,7 @@ Key factors believed to determine surface water concentrations for the eight met
 |     Cr      |     Concentrations primarily determined by bedrock geology and TOC. Not strongly influenced by atmospheric deposition                                                                                         |
 |     Hg      |     Primarily influenced by LRTAP. Strong affinity with organic matter                                                                                                                                        |
 |     Ni      |     Primarily determined by bedrock geology, except close to the Russian border, where local industrial sources dominate. LRTAP not a dominant factor                                                         |
-|     Pb      |     Strongly influenced by LRTAP. Strong affinity with organic matter                                                                                                                                         |
+|     Pb      |     Strongly influenced by LRTAP. Strong affinity with organic matter. Concentrations higher in acidified regions                                                                                             |
 |     Zn      |     Strongly influenced by LRTAP, but with local geological effects too. Some clear point sources in mining areas. Concentrations higher in acidified regions                                                 |
 
 ***Table 1:*** Key factors influencing metal concentrations in Norwegian surface waters. LRTAP, Long-range, transboundary air pollution. Summarised from [Skjelkvåle *et al*. (2006)](https://niva.brage.unit.no/niva-xmlui/handle/11250/213255)
@@ -31,3 +31,5 @@ Key factors believed to determine surface water concentrations for the eight met
 \
 \
 <<[Previous](00_intro_and_toc.html) --------- [Contents](00_intro_and_toc.html) --------- [Next](02_teotil_model.html)>>
+
+          [Home](https://nivanorge.github.io/teotil2/)
