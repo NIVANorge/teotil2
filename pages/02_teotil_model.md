@@ -41,6 +41,6 @@ These calculations are illustrated schematically in ***Fig. 1***. Adding additio
 \
 <<[Previous](01_metal_behaviour.html) --------- [Contents](00_intro_and_toc.html) --------- [Next](03_teotil_metals.html)>>
 
-          [Home](https://nivanorge.github.io/teotil2/)
+        [Home](https://nivanorge.github.io/teotil2/)
 
 {% include lib/mathjax.html %}
