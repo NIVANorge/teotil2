@@ -45,14 +45,9 @@ RUN python -m pip install --no-cache-dir -r /tmp/requirements.txt && \
     rm -rf /tmp/* 
     
 # Install TEOTIL2 =================================================================================
-WORKDIR /teotil2
-COPY ./setup.py /teotil2/
-COPY ./README.md /teotil2/
-COPY ./requirements.txt /teotil2/
-COPY ./LICENSE /teotil2/
-COPY ./teotil2/ /teotil2/teotil2
-RUN python setup.py install
-WORKDIR $HOME 
+RUN python -m pip install --no-cache-dir \
+    'git+https://github.com/NIVANorge/teotil2.git' && \    
+    rm -rf /tmp/* 
     
 # Switch back to jovyan to avoid accidental container runs as root
 USER $NB_UID 

@@ -17,7 +17,37 @@ All the examples in this repository make use of Norway's ["regine" catchment net
 
 ## Installation
 
-**To do**
+The easiest way to use TEOTIL2 is via [NIVA's JupyterHub](jupyterhub.niva.no) - please contact [James Sample](https://www.niva.no/Ansatte/james-edward-sample) if you would like to discuss access. Alternatively, you can install the model yourself and then either create your own input files or work with the pre-built files provided in this repository (see [here](https://github.com/NIVANorge/teotil2/tree/main/data/norway_annual_input_data)).
+
+The TEOTIL2 model itself is a simple, pure Python package, but it has some more complex non-Python dependencies ([GDAL](https://gdal.org/), [PROJ](https://proj.org/) and [Graphviz](https://graphviz.org/)) that must be installed first. If you're using Linux everything should be straightforward, but Windows users may find installing these dependencies more tricky.
+
+### Docker (recommended)
+
+The recommended way to run TEOTIL2 yourself - regardless of your operating system - is by using Docker to extend one of the [Jupyter Docker Stacks](https://github.com/jupyter/docker-stacks). First build the Dockerfile in this repository using e.g.
+
+    docker build -t teotil2 .
+    
+and then run it using e.g.
+
+    docker run -ti --rm -p 8888:8888 -v ${PWD}:/home/jovyan/work teotil2 start.sh jupyter lab
+    
+You can now open a new browser tab, navigate to `http://127.0.0.1:8888/lab?` and begin using JupyterLab.
+
+### Linux
+
+First install the non-python dependencies using your system package manager and then install TEOTIL2 using `pip`
+
+    python -m pip install --no-cache-dir git+https://github.com/NIVANorge/teotil2.git
+    
+The full repository is quite large, so afterwards you may wish to clean up your `tmp` directory
+
+    rm -rf /tmp/* 
+
+See the [Dockerfile](https://github.com/NIVANorge/teotil2/blob/main/Dockerfile) for full details of how to install on Ubuntu.
+
+### Windows
+
+Installing the dependencies on Windows can either be done manually (requires a compiler to be installed) or using a package manager such as [Conda](https://docs.conda.io/en/latest/), then install TEOTIL2 via `pip`, as shown above. Note that you need to make sure your `PATH` environment variable is correctly configured so the Python packages are able to find the non-Python libraries.
 
 ## Documentation and tutorials
 
