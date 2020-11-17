@@ -1,0 +1,14 @@
+cartopy
+fiona
+geopandas
+graphviz
+matplotlib
+networkx
+numpy
+pandas
+pygraphviz
+pysal
+seaborn
+shapely
+statsmodels
+xlrd
