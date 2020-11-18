@@ -24,7 +24,7 @@ The raw point data for geochemistry has been spatially interpolated onto a commo
 
 Estimates of atmospheric deposition based on dynamic modelling are available from [EMEP](http://www.emep.int/), but only for Cd, Hg and Pb. For the other metals of interest (As, Cr, Cu, Ni and Zn), the best available data come from measurements of concentrations in mosses, which aggregate deposition inputs over periods of about a year ([Skjelkvåle *et al*., 2006](https://niva.brage.unit.no/niva-xmlui/handle/11250/213255)). 
 
-Model results from EMEP are produced every year, while the moss surveys have been conducted every 5 years since 1985. Lab methods and limits of detection have improved substantially in the more recent moss surveys, but the number of sites sampled has also reduced. The dataset from 2005 seems to provide the most complete picture in terms of spatial coverage and measurement accuracy.
+Model results from EMEP are produced every year, while the moss surveys have been conducted every 5 years since 1985. Lab methods and limits of detection have improved substantially in the more recent moss surveys, but the number of sites sampled has also reduced. The dataset from 2005 therefore seems to provide the most complete picture in terms of spatial coverage and measurement accuracy.
 
 Raw point datasets from the moss surveys were made available by Eiliv Steinnes at NTNU. The same [IDW interpolation procedure](https://nbviewer.jupyter.org/github/NIVANorge/teotil2/blob/main/notebooks/dev02_teotil2_metals_interp_and_regress.ipynb) used for geochemistry was applied to translate values onto a common grid (*Fig. 3*).
 
@@ -57,7 +57,7 @@ To develop a robust implementation of TEOTIL Metals, it is necessary to estimate
 
 The best available datasets describing metal concentrations through time are those collected as part of [Elveovervåkingsprogrammet](https://www.miljodirektoratet.no/om-oss/roller/miljoovervaking/overvakingsprogrammer/basisovervaking/elveovervakningsprogrammet/). Since 1990, 155 major Norwegian rivers have been monitored within this programme, and since 2017 a subset of 20 of these has been sampled and analysed four times per year for heavy metals. 
 
-Raw point datasets from the 2019 1000 Lakes survey were [interpolated using the same procedure](https://nbviewer.jupyter.org/github/NIVANorge/teotil2/blob/main/notebooks/dev02_teotil2_metals_interp_and_regress.ipynb) as for mosses and geochemistry. The interpolated grids for each metal are shown in *Fig. 4*.
+Raw point datasets from the 2019 1000 Lakes survey were [interpolated using the same procedure](https://nbviewer.jupyter.org/github/NIVANorge/teotil2/blob/main/notebooks/dev03_teotil2_metals_1k_lakes_2019.ipynb#3.-Read-1000-lakes-data-for-2019) as for mosses and geochemistry. The interpolated grids for each metal are shown in *Fig. 4*.
 
 <p align="center">
   <img src="../images/water_chem_1k_Lakes_2019_interp.png" alt="Interpolated water chemistry from the 2019 1000 Lakes survey" width="800" />
@@ -67,7 +67,7 @@ Raw point datasets from the 2019 1000 Lakes survey were [interpolated using the 
 
 ### 3.1.4. Hydrology
 
-As part of Elveovervåkingsprogrammet, national scale hydrology data are supplied annually by the Norwegian Water Resources and Energy Directorate (NVE) and incorporated into the existing TEOTIL model for N and P. For TEOTIL Metals, hydrology plays an important role in determining weathering and mobilisation, and making it possible to translate metal concentrations in the geochemical, moss or water chemistry datasets into riverine fluxes. Hydrological parameters such as specific runoff and catchment residence time are also required to derive estimates of retention ([Section 3.2](05_retention.html)).
+As part of Elveovervåkingsprogrammet, national scale hydrology data are supplied annually by the [Norwegian Water Resources and Energy Directorate (NVE)](https://www.nve.no/) and incorporated into the existing TEOTIL model for N and P. For TEOTIL Metals, hydrology plays an important role in determining weathering and mobilisation, and making it possible to translate metal concentrations in the geochemical, moss or water chemistry datasets into riverine fluxes. Hydrological parameters such as specific runoff and catchment residence time are also required to derive estimates of retention ([Section 3.2](05_retention.html)).
 
 \
 \

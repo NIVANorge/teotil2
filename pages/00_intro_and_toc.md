@@ -1,5 +1,4 @@
-# TEOTIL2 Metals
-# Model development report
+# TEOTIL2 Metals: Model development report
 
 # Introduction
 

@@ -50,7 +50,7 @@ provides a better fit to observations. Note, however, that there is no mechanist
 
 For some metals, the literature provides suggested values for the parameters $$\sigma$$ and $$n$$ in equation [9] (e.g. [Vink and Peters, 2003](https://onlinelibrary.wiley.com/doi/abs/10.1002/hyp.1286)). However, these values depend on catchment characteristics and are therefore specific to the hydrological, geochemical and climatic conditions under which they were derived. Studies focusing on the Norwegian context are rare, so for TEOTIL Metals it will likely be necessary to estimate relationships directly from Norwegian data.
 
-An alternative is to use existing water chemistry data and/or statistical relationships to estimate surface water metal concentrations directly for each regine catchment. This approach *implicitly* accounts for retention by estimating $$[m_o]$$ directly, instead of starting with an estimate for $$m_i$$ and assuming steady state. In this case, retention for all catchments in the model can be assumed to be zero, and fluxes for each substance calculated simply as the product of outflow discharge and concentration, $$q_o [m_o]$$.
+An alternative is to use existing water chemistry data and/or statistical relationships to estimate surface water metal concentrations directly for each regine catchment. This approach *implicitly* accounts for retention by estimating $$[m_o]$$, instead of starting with an estimate for $$m_i$$ and assuming steady state. In this case, retention for all catchments in the model can be assumed to be zero, and fluxes for each substance calculated simply as the product of outflow discharge and concentration, $$q_o [m_o]$$.
 
 \
 \

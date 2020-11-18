@@ -47,7 +47,7 @@ See the [Dockerfile](https://github.com/NIVANorge/teotil2/blob/main/Dockerfile) 
 
 ### Windows
 
-Installing the dependencies on Windows can either be done manually (requires a compiler to be installed) or using a package manager such as [Conda](https://docs.conda.io/en/latest/), then install TEOTIL2 via `pip`, as shown above. Note that you need to make sure your `PATH` environment variable is correctly configured so the Python packages are able to find the non-Python libraries.
+Installing the dependencies on Windows can either be done manually (requires a compiler), or using a package manager such as [Conda](https://docs.conda.io/en/latest/). Then install TEOTIL2 via `pip`, as shown above. Note that you need to make sure your `PATH` environment variable is correctly configured so the Python packages are able to find the non-Python libraries.
 
 ## Documentation and tutorials
 
@@ -67,7 +67,7 @@ The easiest way to get started with TEOTIL2 is by working through some practical
 
 ## Reports and technical information
 
-The links below provide additonal background information, theory and technical details for TEOTIL models.
+The links below provide additonal background information, theory and technical details for the TEOTIL models.
 
  * [Report for the original TEOTIL model (version 1) by Tjomsland *et al*. (2010)](https://niva.brage.unit.no/niva-xmlui/handle/11250/214825)
  

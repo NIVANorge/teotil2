@@ -6,7 +6,7 @@ The original TEOTIL model was created in 1992 ([Ibrekk and Tjomsland, 1992](http
 
 ## 2.2. Nitrogen and phosphorus
 
-The purpose of the existing TEOTIL model is to integrate nutrient inputs from a variety of sources and to accumulate them downstream. Key datasets for simulating nitrogen and phosphorus include: diffuse background inputs from forests & uplands; diffuse human inputs based on population density & agricultural activities; and point discharges from industry, sewage treatment & aquaculture. The model uses the “export coefficient” concept to estimate diffuse fluxes, and it also incorporates a simple representation of catchment-level nutrient cycling and retention. For national scale applications, the model typically uses the “regine” catchment network, which comprises roughly 20 000 sub-catchments across Norway, ranging in size between 0.01 and 10 000 km2.
+The purpose of the existing TEOTIL model is to integrate nutrient inputs from a variety of sources and to accumulate them downstream. Key datasets for simulating nitrogen and phosphorus include: diffuse background inputs from forests & uplands; diffuse human inputs based on population density & agricultural activities; and point discharges from industry, sewage treatment & aquaculture. The model uses the “export coefficient” concept to estimate diffuse fluxes, and it also incorporates a simple representation of catchment-level nutrient cycling and retention. For national scale applications, the model typically uses the “regine” catchment network, which comprises roughly 20 000 sub-catchments across Norway, ranging in size between 0.01 and 10 000 km².
 
 ## 2.3. Model structure and constraints
 
