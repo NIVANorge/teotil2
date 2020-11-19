@@ -32,4 +32,4 @@ Key factors believed to determine surface water concentrations for the eight met
 \
 <<[Previous](00_intro_and_toc.html) --------- [Contents](00_intro_and_toc.html) --------- [Next](02_teotil_model.html)>>
 
-        [Home](https://nivanorge.github.io/teotil2/)
+[Home](https://nivanorge.github.io/teotil2/)

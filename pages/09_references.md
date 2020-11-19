@@ -23,4 +23,4 @@
 \
 <<[Previous](08_conclusion.html) --------- [Contents](00_intro_and_toc.html) --------- Next>>
 
-        [Home](https://nivanorge.github.io/teotil2/)
+[Home](https://nivanorge.github.io/teotil2/)

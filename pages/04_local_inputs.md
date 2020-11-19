@@ -74,4 +74,4 @@ As part of Elveovervåkingsprogrammet, national scale hydrology data are supplie
 \
 <<[Previous](03_teotil_metals.html) --------- [Contents](00_intro_and_toc.html) --------- [Next](05_retention.html)>>
 
-        [Home](https://nivanorge.github.io/teotil2/)
+[Home](https://nivanorge.github.io/teotil2/)

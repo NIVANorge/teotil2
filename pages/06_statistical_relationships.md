@@ -16,7 +16,7 @@ $$
 [H^+] = 10^{-pH} \quad \quad \quad (10)
 $$
 
-When this is done, the relationships on the scatter plots are all approximately linear, suggesting multiple linear regression as an appropriate tool for further analysis.
+When this is done, relationships on the scatter plots are all approximately linear, suggesting multiple linear regression as an appropriate tool for further analysis.
 
 ### 3.3.2. Multiple linear regression
 
@@ -40,14 +40,14 @@ All variables were standardised prior to regression and a "best subsets" approac
 
 |   Variable   |  Slope | p-value |
 |:------------:|:------:|:-------:|
-| moss_mean_pb | 0.0267 |       0 |
-| geol_mean_pb | 0.0674 |       0 |
-|   TOC_mgC/l  | 0.0770 |       0 |
-|      hp      | 0.1433 |       0 |
+|    Mosses    | 0.0267 |       0 |
+| Geochemistry | 0.0674 |       0 |
+|      TOC     | 0.0770 |       0 |
+|      H+      | 0.1433 |       0 |
 
 ***Table 3:*** Standardised regression coefficients and p-values for the regression model shown in *Fig. 5*
 
-Detailed regression results for all metals can be found [here](https://nbviewer.jupyter.org/github/NIVANorge/teotil2/blob/main/notebooks/dev02_teotil2_metals_interp_and_regress.ipynb#7.-Regression). Although all relationships are highly statistically significant, and most are physically plausible, the explanatory power for several of the metals is poor (i.e. the effect size is small/negligible). Furthermore, in most cases, **the effects of other water chemistry parameters (especially TOC concentration) are more important than either the moss or geochemistry variables**. This is problematic, because TEOTIL enforces a simple conceptual framework that is incapable of representing such "process-based" or "mechanistic" effects¹. Restricting the statistical models to only consider the moss and geochemistry datasets yields very poor relationships and, since we do not have national scale datasets of pH and TOC through time (the "1000 Lakes" surveys are 20 years apart), it is not possible to use these relationships to effectively estimate regine-scale catchment inputs from the moss and geochemistry data. The alternative approach of directly estimating catchment metal concentrations from the 2019 1000 Lakes dataset must therefore be explored in more detail.
+Detailed regression results for all metals can be found [here](https://nbviewer.jupyter.org/github/NIVANorge/teotil2/blob/main/notebooks/dev02_teotil2_metals_interp_and_regress.ipynb#7.-Regression). Although all relationships are highly statistically significant, and most are physically plausible, the explanatory power for several of the metals is poor (i.e. the effect size is small/negligible). Furthermore, in most cases, **the effects of other water chemistry parameters (especially TOC concentration) are more important than either the moss or geochemistry variables**. This is problematic, because TEOTIL enforces a simple conceptual framework that is incapable of representing such "process-based" or "mechanistic" effects¹. Restricting the statistical models to only consider the moss and geochemistry datasets yields very poor relationships and, since we do not have national scale datasets of pH and TOC through time (the "1000 Lakes" surveys are 25 years apart), it is not possible to use these relationships to effectively estimate regine-scale catchment inputs from the moss and geochemistry data. The alternative approach of directly estimating catchment metal concentrations from the 2019 1000 Lakes dataset must therefore be explored in more detail.
 
 <br>
 <br>
@@ -61,6 +61,6 @@ Detailed regression results for all metals can be found [here](https://nbviewer.
 \
 <<[Previous](05_retention.html) --------- [Contents](00_intro_and_toc.html) --------- [Next](07_1000_lakes.html)>>
 
-        [Home](https://nivanorge.github.io/teotil2/)
+[Home](https://nivanorge.github.io/teotil2/)
 
 {% include lib/mathjax.html %}

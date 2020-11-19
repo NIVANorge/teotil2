@@ -29,4 +29,4 @@ As part of a commitment to protect the marine environment of the Northeastern At
 \
 <<Previous --------- Contents --------- [Next](01_metal_behaviour.html)>>
 
-        [Home](https://nivanorge.github.io/teotil2/)
+[Home](https://nivanorge.github.io/teotil2/)

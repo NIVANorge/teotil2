@@ -9,4 +9,4 @@ The eight metals of interest in this report exhibit a range of behaviours in the
 \
 <<[Previous](02_teotil_model.html) --------- [Contents](00_intro_and_toc.html) --------- [Next](04_local_inputs.html)>>
 
-        [Home](https://nivanorge.github.io/teotil2/)
+[Home](https://nivanorge.github.io/teotil2/)

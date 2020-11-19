@@ -57,6 +57,6 @@ An alternative is to use existing water chemistry data and/or statistical relati
 \
 <<[Previous](04_local_inputs.html) --------- [Contents](00_intro_and_toc.html) --------- [Next](06_statistical_relationships.html)>>
 
-        [Home](https://nivanorge.github.io/teotil2/)
+[Home](https://nivanorge.github.io/teotil2/)
 
 {% include lib/mathjax.html %}
