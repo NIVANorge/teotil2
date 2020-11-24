@@ -38,7 +38,7 @@ Raw point datasets from the moss surveys were made available by Eiliv Steinnes a
 
 National surveys of Norwegian water chemistry took place in 1986, 1995 and 2019. The 2019 "1000 Lakes" survey considered all the metals of interest in this report, while the 1995 survey included all except mercury. pH and TOC were also measured, making it possible to explore effects such as acidification and organic matter complexation.
 
-Analytical methods used in the 2019 survey have imporved considerably since 1995: a key limitation of the earlier survey datasets is that measured concentrations are frequently low compared to laboratory limits of detection (LODs). *Table 2* shows the proportion of samples from the 1995 survey that were at or below the LOD for seven metals, plus TOC.
+Analytical methods used in the 2019 survey have improved considerably since 1995: a key limitation of the earlier survey datasets is that measured concentrations are frequently low compared to laboratory limits of detection (LODs). *Table 2* shows the proportion of samples from the 1995 survey that were at or below the LOD for seven metals, plus TOC.
 
 |   Element   |   Number of samples   |   Number ≤ LOD   |   Percent ≤ LOD   |
 |:-----------:|:---------------------:|:----------------:|:-----------------:|
@@ -55,7 +55,7 @@ Analytical methods used in the 2019 survey have imporved considerably since 1995
 
 To develop a robust implementation of TEOTIL Metals, it is necessary to estimate inputs of metals to each regine catchment. Obvious ways of doing this are either (i) deriving statistical relationships linking geological and atmospheric datasets to water chemistry, or (ii) using the water chemistry datasets directly to infer catchment concentrations. However, for either approach, deriving meaningful quantitative relationships is difficult when a significant proportion of the data are censored (and this is especially true when more than 50% of the data are censored, because even simple descriptive statistics — like the median — become difficult to estimate). *Table 2* makes it clear that, from the national survey data available, only the 2019 survey will be useful in the context of developing TEOTIL Metals.
 
-The best available datasets describing metal concentrations through time are those collected as part of [Elveovervåkingsprogrammet](https://www.miljodirektoratet.no/om-oss/roller/miljoovervaking/overvakingsprogrammer/basisovervaking/elveovervakningsprogrammet/). Since 1990, 155 major Norwegian rivers have been monitored within this programme, and since 2017 a subset of 20 of these has been sampled and analysed four times per year for heavy metals. 
+The best available datasets describing metal concentrations through time are those collected as part of [Elveovervåkingsprogrammet](https://www.miljodirektoratet.no/om-oss/roller/miljoovervaking/overvakingsprogrammer/basisovervaking/elveovervakningsprogrammet/). Since 1990, 155 major Norwegian rivers have been monitored within this programme, and since 2017 a subset of 20 has been sampled and analysed four times per year for heavy metals. 
 
 Raw point datasets from the 2019 1000 Lakes survey were [interpolated using the same procedure](https://nbviewer.jupyter.org/github/NIVANorge/teotil2/blob/main/notebooks/dev03_teotil2_metals_1k_lakes_2019.ipynb#3.-Read-1000-lakes-data-for-2019) as for mosses and geochemistry. The interpolated grids for each metal are shown in *Fig. 4*.
 
