@@ -302,21 +302,22 @@ def get_annual_vassdrag_mean_flows(year, engine):
     return q_df
 
 
-def get_annual_agricultural_coefficients(year, engine):
+def get_annual_agricultural_coefficients(year, engine, core_fold):
     """Get annual agricultural inputs from Bioforsk and
         convert to land use coefficients.
 
     Args:
-        year:     Int. Year of interest
-        engine:   SQL-Alchemy 'engine' object already connected to
-                  RESA2
+        year:      Int. Year of interest
+        engine:    SQL-Alchemy 'engine' object already connected to
+                   RESA2
+        core_fold: Str. Path to folder containing core TEOTIL2 data files
 
     Returns:
         Dataframe
     """
     # Read LU areas (same values used every year)
-    in_csv = r"../data/core_input_data/fysone_land_areas.csv"
-    lu_areas = pd.read_csv(in_csv, sep=";", encoding="windows-1252")
+    csv_path = os.path.join(core_fold, "fysone_land_areas.csv")
+    lu_areas = pd.read_csv(csv_path, sep=";", encoding="windows-1252")
 
     # Read Bioforsk data
     sql = "SELECT * FROM RESA2.RID_AGRI_INPUTS " "WHERE year = %s" % year
@@ -372,8 +373,8 @@ def make_rid_input_file(year, engine, core_fold, out_csv, par_list=["Tot-N", "To
         year:      Int. Year of interest
         par_list:  List. Parameters defined in
                    RESA2.RID_PUNKTKILDER_OUTPAR_DEF
-        out_csv:   Path for output CSV file
-        core_fold: Path to folder containing core TEOTIL2 data files
+        out_csv:   Str. Path for output CSV file
+        core_fold: Str. Path to folder containing core TEOTIL2 data files
         engine:    SQL-Alchemy 'engine' object already connected
                    to RESA2
 
@@ -386,7 +387,7 @@ def make_rid_input_file(year, engine, core_fold, out_csv, par_list=["Tot-N", "To
     aqu_df = get_annual_aquaculture_data(year, engine, par_list=par_list)
     ren_df = get_annual_renseanlegg_data(year, engine, par_list=par_list)
     ind_df = get_annual_industry_data(year, engine, par_list=par_list)
-    agri_df = get_annual_agricultural_coefficients(year, engine)
+    agri_df = get_annual_agricultural_coefficients(year, engine, core_fold)
     q_df = get_annual_vassdrag_mean_flows(year, engine)
 
     # Read core TEOTIL2 inputs
