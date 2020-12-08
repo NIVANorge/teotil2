@@ -1,3 +1,4 @@
+import os
 from collections import defaultdict
 
 import geopandas as gpd
@@ -197,6 +198,7 @@ def plot_network(g, catch_id, direct="down", stat="accum", quant="upstr_area_km2
 
 def make_map(
     g,
+    core_fold,
     stat="accum",
     quant="q_m3/s",
     trans="none",
@@ -211,6 +213,7 @@ def make_map(
 
     Args:
         g          NetworkX graph object returned by teo.run_model()
+        core_fold: Str. Path to folder containing core TEOTIL2 data files
         stat:      Str. 'local' or 'accum'. Type of results to display
         quant:     Str. Any of the returned result types
         trans:     Str. One of ['none', 'log', 'sqrt']. Whether to transform 'quant'
@@ -255,7 +258,7 @@ def make_map(
         raise ValueError("'trans' must be one of ['none', 'log', 'sqrt'].")
 
     # Read regine catchments and join
-    reg_shp = r"../data/gis/reg_minste_f_wgs84.shp"
+    reg_shp = os.path.join(core_fold, "gis", "reg_minste_f_wgs84.shp")
     reg_gdf = gpd.read_file(reg_shp).to_crs(epsg=32633)
     reg_gdf = reg_gdf.merge(df, on="VASSDRAGNR")
 
