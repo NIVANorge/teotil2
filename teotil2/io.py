@@ -392,16 +392,13 @@ def make_rid_input_file(year, engine, core_fold, out_csv, par_list=["Tot-N", "To
 
     # Read core TEOTIL2 inputs
     # 1. Regine network
-    # Changes to kommuner boundaries in 2017 require different files for
+    # Changes to kommuner boundaries require different files for
     # different years
     if year < 2017:
         csv_path = os.path.join(core_fold, "regine_pre_2017.csv")
         reg_df = pd.read_csv(csv_path, index_col=0, sep=";")
-    elif year == 2017:
-        csv_path = os.path.join(core_fold, "regine_2017.csv")
-        reg_df = pd.read_csv(csv_path, index_col=0, sep=";")
     else:
-        csv_path = os.path.join(core_fold, "regine_2018_onwards.csv")
+        csv_path = os.path.join(core_fold, f"regine_{year}.csv")
         reg_df = pd.read_csv(csv_path, index_col=0, sep=";")
 
     # 2. Retention factors
@@ -773,16 +770,13 @@ def make_metals_input_file(
 
     # Read core TEOTIL2 inputs
     # 1. Regine network
-    # Changes to kommuner boundaries in 2017 require different files for
+    # Changes to kommuner boundaries require different files for
     # different years
     if year < 2017:
         csv_path = os.path.join(core_fold, "regine_pre_2017.csv")
         reg_df = pd.read_csv(csv_path, index_col=0, sep=";")
-    elif year == 2017:
-        csv_path = os.path.join(core_fold, "regine_2017.csv")
-        reg_df = pd.read_csv(csv_path, index_col=0, sep=";")
     else:
-        csv_path = os.path.join(core_fold, "regine_2018_onwards.csv")
+        csv_path = os.path.join(core_fold, f"regine_{year}.csv")
         reg_df = pd.read_csv(csv_path, index_col=0, sep=";")
 
     # 2. Retention factors
