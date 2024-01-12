@@ -4,6 +4,8 @@ This folder contains results from the annual TEOTIL2 modelling.
 
 Column headings in the files are described below.
 
+**NOTE:** TEOTIL2 input and output files are provided at the spatial resolution of NVE's [regine catchments](https://www.nve.no/kart/kartdata/vassdragsdata/nedborfelt-regine/). However, the TEOTIL2 model is best suited for simulating fluxes for larger catchments or regions. This is because several of the input datasets for TEOTIL2 have coarser spatial resolution than the regine dataset. **It is not recommended to use the regine-level data directly**. 
+
 ## TEOTIL2 (nutrients)
 
 Files named `teotil2_results_{year}.csv`.
