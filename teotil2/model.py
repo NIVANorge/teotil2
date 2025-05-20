@@ -64,7 +64,7 @@ def run_model(data):
             f"trans_{par}" in df.columns
         ), f"Column 'trans_{par}' not present in input.'"
         assert (
-            df[f"trans_{par}"].between(0, 1, inclusive=True).all()
+            df[f"trans_{par}"].between(0, 1, inclusive='both').all()
         ), f"Column 'trans_{par}' contains values outside of range [0, 1]"
 
     # Build graph
